@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/get-integer-part.iml" filepath="$PROJECT_DIR$/.idea/get-integer-part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/get-left-of-decimal.iml" filepath="$PROJECT_DIR$/.idea/get-left-of-decimal.iml" />
     </modules>
   </component>
 </project>
