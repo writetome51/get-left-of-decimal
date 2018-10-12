@@ -1,5 +1,7 @@
-This package has 3 functions:
+Without rounding, this function returns the number without the decimal and fraction.
 
-getRounded(number),  getRoundedDown(number),  getRoundedUp(number)
+Examples:
 
-If you pass anything but a number to them, you'll get an error.
+let n = getIntegerPart(20.723); // n becomes 20.
+
+let n = getIntegerPart(-20.723); // n becomes -20.
