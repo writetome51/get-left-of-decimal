@@ -7,4 +7,4 @@ function getLeftOfDecimal(num) {
 	return num >> 0;
 }
 
-exports.getIntegerPart = getLeftOfDecimal;
+exports.getLeftOfDecimal = getLeftOfDecimal;
