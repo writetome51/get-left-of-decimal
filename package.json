@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-left-of-decimal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Without rounding, this function returns the number without the decimal or anything to the right of it",
   "main": "index.js",
   "scripts": {
