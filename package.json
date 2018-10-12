@@ -1,0 +1,23 @@
+{
+  "name": "@writetome51/get-integer-part",
+  "version": "1.0.0",
+  "description": "Without rounding, this function returns the number without the decimal and fraction.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "numbers",
+   "remove",
+   "decimal",
+   "return",
+   "get",
+   "integer"
+  ],
+  "author": "Steve Thompson",
+  "license": "FREE",
+  "homepage": "",
+  "dependencies": {
+  }
+}
