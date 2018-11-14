@@ -1,7 +1,7 @@
 {
   "name": "@writetome51/get-left-of-decimal",
-  "version": "1.0.1",
-  "description": "Without rounding, this function returns the number without the decimal or anything to the right of it",
+  "version": "1.0.2",
+  "description": "Without rounding, returns the number without the decimal or anything to the right of it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +16,9 @@
     "integer"
   ],
   "author": "Steve Thompson",
-  "license": "FREE",
+  "license": "MIT",
   "homepage": "",
   "dependencies": {
+    "basic-data-handling": "^1.0.13"
   }
 }
