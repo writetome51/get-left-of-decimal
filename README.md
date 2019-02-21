@@ -1,19 +1,30 @@
-To include:
+# getLeftOfDecimal(number): number
 
-import {getLeftOfDecimal} from '@writetome51/get-left-of-decimal';
-
-// number cannot be of type string:  
-getLeftOfDecimal(number): number
-
-Without rounding, this function returns the number without the decimal or anything   
-to the right of it.
+Returns `number` without the decimal or anything   
+to the right of it.  Does not round.
 
 Examples:
+```
+getLeftOfDecimal(20.723); 
+    // --> 20
 
-let n = getLeftOfDecimal(20.723); // n becomes 20
+getLeftOfDecimal(-20.723);
+    // -->  -20
 
-let n = getLeftOfDecimal(-20.723); // n becomes -20
+getLeftOfDecimal(1.012); 
+    // --> 1
 
-let n = getLeftOfDecimal(1.012); // n becomes 1
+getLeftOfDecimal(1.999);
+    // --> 1
+```
 
-let n = getLeftOfDecimal(1.999); // n becomes 1
+## Installation
+`npm i  @writetome51/get-left-of-decimal`
+
+## Loading
+```
+// if using TypeScript:
+import {getLeftOfDecimal} from '@writetome51/get-left-of-decimal'; 
+// if using ES5 JavaScript:
+var getLeftOfDecimal = require('@writetome51/get-left-of-decimal').getLeftOfDecimal;
+```

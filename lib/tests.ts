@@ -1,4 +1,4 @@
-import { getLeftOfDecimal } from './getLeftOfDecimal';
+import { getLeftOfDecimal } from './index';
 
 
 // Test 1
