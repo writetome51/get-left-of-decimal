@@ -22,9 +22,6 @@ getLeftOfDecimal(1.999);
 `npm i  @writetome51/get-left-of-decimal`
 
 ## Loading
-```
-// if using TypeScript:
-import {getLeftOfDecimal} from '@writetome51/get-left-of-decimal'; 
-// if using ES5 JavaScript:
-var getLeftOfDecimal = require('@writetome51/get-left-of-decimal').getLeftOfDecimal;
+```js
+import {getLeftOfDecimal} from '@writetome51/get-left-of-decimal';
 ```

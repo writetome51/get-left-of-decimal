@@ -1,46 +1,44 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var index_1 = require("./index");
+import { getLeftOfDecimal } from './index';
 // Test 1
-var result = index_1.getLeftOfDecimal(11.00022);
+let result = getLeftOfDecimal(11.00022);
 if (result === 11)
     console.log('test 1 passed');
 else
     console.log('test 1 FAILED');
 // Test 2
-result = index_1.getLeftOfDecimal(110.999);
+result = getLeftOfDecimal(110.999);
 if (result === 110)
     console.log('test 2 passed');
 else
     console.log('test 2 FAILED');
 // Test 2A
-result = index_1.getLeftOfDecimal(-110.999);
+result = getLeftOfDecimal(-110.999);
 if (result === -110)
     console.log('test 2A passed');
 else
     console.log('test 2A FAILED');
 // Test 3
-result = index_1.getLeftOfDecimal(0.0);
+result = getLeftOfDecimal(0.0);
 if (result === 0)
     console.log('test 3 passed');
 else
     console.log('test 3 FAILED');
 // Test 4
-result = index_1.getLeftOfDecimal(9);
+result = getLeftOfDecimal(9);
 if (result === 9)
     console.log('test 4 passed');
 else
     console.log('test 4 FAILED');
 // Test 5
-result = index_1.getLeftOfDecimal(9.0);
+result = getLeftOfDecimal(9.0);
 if (result === 9)
     console.log('test 5 passed');
 else
     console.log('test 5 FAILED');
 // Test 6
-var errorTriggered = false;
+let errorTriggered = false;
 try {
-    result = index_1.getLeftOfDecimal('0');
+    result = getLeftOfDecimal('0');
 }
 catch (e) {
     errorTriggered = true;
@@ -52,7 +50,7 @@ else
 // Test 7
 errorTriggered = false;
 try {
-    result = index_1.getLeftOfDecimal('');
+    result = getLeftOfDecimal('');
 }
 catch (e) {
     errorTriggered = true;
@@ -64,7 +62,7 @@ else
 // Test 8
 errorTriggered = false;
 try {
-    result = index_1.getLeftOfDecimal(' ');
+    result = getLeftOfDecimal(' ');
 }
 catch (e) {
     errorTriggered = true;
