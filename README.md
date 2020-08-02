@@ -1,7 +1,6 @@
 # getLeftOfDecimal(number): number
 
-Returns `number` without the decimal or anything   
-to the right of it.  Does not round.
+Returns `number` without the decimal or anything to the right of it.  Does not round.
 
 Examples:
 ```
